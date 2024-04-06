@@ -1,0 +1,6 @@
+@SearchInsightGenerator_HostAddress = http://localhost:5192
+
+GET {{SearchInsightGenerator_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
