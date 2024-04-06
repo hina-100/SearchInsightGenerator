@@ -105,45 +105,6 @@ namespace SearchInsightGenerator
 
             // Display sentiment analysis result
             Console.WriteLine($"Sentiment: {sentiment}");
-            /* string apiKey = "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";
-             string prompt = $"Extract and refine relevant information from following search results: {queryResponse}";
-             string model = "text-davinci-003";
-
-             // Construct the request payload
-             var requestData = new
-             {
-                 model = model,
-                 prompt = prompt,
-                 max_tokens = 50
-             };
-
-             // Convert request payload to JSON
-             var requestBody = System.Text.Json.JsonSerializer.Serialize(requestData);
-
-             Console.WriteLine("Request Length:" + requestBody.Length);
-             // Create HttpClient instance
-             using (HttpClient client = new HttpClient())
-             {
-                 // Set OpenAI API authentication headers
-                 client.DefaultRequestHeaders.Add("Authorization", $"Bearer {apiKey}");
-                 //client.DefaultRequestHeaders.Add("Content-Type", "application/json");
-
-                 // Make POST request to OpenAI API
-                 var response = await client.PostAsync("https://api.openai.com/v1/completions", new StringContent(
-                     new string(requestBody.Take(Math.Min(3000, requestBody.Length)).ToArray())));
-
-                 // Check if request was successful
-                 if (response.IsSuccessStatusCode)
-                 {
-                     // Read response content
-                     var responseContent = await response.Content.ReadAsStringAsync();
-                     Console.WriteLine(responseContent);
-                 }
-                 else
-                 {
-                     Console.WriteLine($"Error: {response.StatusCode} - {response.ReasonPhrase}");
-                 }
-             }*/
         }
 
         public static async Task InsertSearchResults(string searchQuery, string searchResult)
