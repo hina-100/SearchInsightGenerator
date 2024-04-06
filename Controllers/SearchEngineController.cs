@@ -33,9 +33,9 @@ namespace SearchInsightGenerator.Controllers
         [Route("backend/GetTop10SearchResults")]
         [HttpGet]
         //[HttpGet(Name = "GetTop10SearchResults")]
-        public async Task GetTop10SearchResults(string query)
+        public async Task<string> GetTop10SearchResults(string query)
         {
-            await SearchEngine.GetResults(query);
+           return await SearchEngine.GetResults(query);
            // await SearchEngineCode.GetSearchResults();
         }
     }

@@ -4,7 +4,7 @@ namespace SearchInsightGenerator
 {
     public class SearchEngine
     {
-        public static async Task GetResults(string query)
+        public static async Task<string> GetResults(string query)
         {
             string apiKey = "AIzaSyC6ATf9iKqBTYxtbR3CmgXnm8dBUN-AwVw"; // Replace with your Google API Key
             string cseId = "654327066e1214d7a";   // Replace with your Custom Search Engine ID
@@ -38,12 +38,17 @@ namespace SearchInsightGenerator
                     {
                         Console.WriteLine("No search results found.");
                     }
+
+                    return responseBody;
                 }
                 else
                 {
-                    Console.WriteLine("Error fetching search results. Status code: " + response.StatusCode);
+                    var errorMessage = "Error fetching search results. Status code: " + response.StatusCode;
+                    Console.WriteLine(errorMessage);
+                    return errorMessage;
                 }
             }
+
         }
     }
 }
