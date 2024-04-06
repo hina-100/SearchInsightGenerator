@@ -1,4 +1,6 @@
-﻿using Newtonsoft.Json.Linq;
+﻿using MongoDB.Bson;
+using MongoDB.Driver;
+using Newtonsoft.Json.Linq;
 
 namespace SearchInsightGenerator
 {
@@ -33,6 +35,8 @@ namespace SearchInsightGenerator
                             string link = result["link"].ToString();
                             Console.WriteLine($"{title}: {link}");
                         }
+
+                        await InsertSearchResults(query, responseBody);
                     }
                     else
                     {
@@ -49,6 +53,31 @@ namespace SearchInsightGenerator
                 }
             }
 
+        }
+
+        public static async Task InsertSearchResults(string searchQuery, string searchResult)
+        {
+            //string connectionString = "mongodb://localhost:27017";
+            var connectionString = "mongodb+srv://hinaagrawal100:p6X6OypCUMIhi1dA@cluster0.0mped2d.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+
+            // Connect to MongoDB
+            var client = new MongoClient(connectionString);
+
+            // Access database
+            var database = client.GetDatabase("Search");
+
+            // Access collection
+            var collection = database.GetCollection<BsonDocument>("SearchHistory");
+
+            // Create document to insert
+            var document = new BsonDocument
+        {
+            { "SearchQuery", searchQuery },
+            { "SearchResult", searchResult }
+        };
+
+            // Insert document into collection
+            await collection.InsertOneAsync(document);
         }
     }
 }
