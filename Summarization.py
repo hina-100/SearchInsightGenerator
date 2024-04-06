@@ -72,7 +72,7 @@ for item in items:
 
 
 ## preprocess the input text
-preprocessed_text = text.strip().replace('\n','')
+#preprocessed_text = text.strip().replace('\n','')
 
 text = ''.join(snippets)
 

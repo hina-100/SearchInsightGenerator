@@ -1,0 +1,227 @@
+{
+    "searchParameters": {
+        "q": "What is bitcoin",
+        "gl": "in",
+        "type": "search",
+        "engine": "google"
+    },
+    "knowledgeGraph": {
+        "title": "Bitcoin",
+        "type": "Cryptocurrency",
+        "description": "Bitcoin is the first decentralized cryptocurrency. Nodes in the peer-to-peer bitcoin network verify transactions through cryptography and record them in a public distributed ledger, called a blockchain, without central oversight.",
+        "descriptionSource": "Wikipedia",
+        "descriptionLink": "https://en.wikipedia.org/wiki/Bitcoin",
+        "attributes": {
+            "Symbols": "BTC, ฿ and ₿",
+            "Block reward": "₿6.25 (as of 2023)",
+            "Code": "BTC",
+            "Exchange rate": "Floating",
+            "Hash function": "SHA-256 (two rounds)",
+            "Implementation(s)": "Bitcoin Core",
+            "Initial release": "0.1.0 / 9 January 2009 (15 years ago)"
+        }
+    },
+    "organic": [
+        {
+            "title": "What Is Bitcoin? How to Mine, Buy, and Use It - Investopedia",
+            "link": "https://www.investopedia.com/terms/b/bitcoin.asp",
+            "snippet": "Bitcoin (BTC) is a digital or virtual currency created in 2009 that uses peer-to-peer technology to facilitate instant payments.",
+            "sitelinks": [
+                {
+                    "title": "Mining Bitcoin",
+                    "link": "https://www.investopedia.com/terms/b/bitcoin-mining.asp"
+                },
+                {
+                    "title": "Cryptocurrency Explained",
+                    "link": "https://www.investopedia.com/terms/c/cryptocurrency.asp"
+                },
+                {
+                    "title": "World's largest cryptocurrency",
+                    "link": "https://www.investopedia.com/tech/how-much-worlds-money-bitcoin/"
+                }
+            ],
+            "position": 1
+        },
+        {
+            "title": "What is Bitcoin? - Coinbase",
+            "link": "https://www.coinbase.com/learn/crypto-basics/what-is-bitcoin",
+            "snippet": "It's an appealingly simple concept: bitcoin is digital money that allows for secure peer-to-peer transactions on the internet.",
+            "position": 2
+        },
+        {
+            "title": "What is Bitcoin? | Learn all about BTC | Get Started with Bitcoin.com",
+            "link": "https://www.bitcoin.com/get-started/what-is-bitcoin/",
+            "snippet": "Bitcoin is a decentralized digital asset. It is a new type of asset that joins the ranks of traditional assets such as cash, gold, and real estate.",
+            "position": 3
+        },
+        {
+            "title": "Bitcoin - Open source P2P money",
+            "link": "https://bitcoin.org/",
+            "snippet": "Bitcoin is an innovative payment network and a new kind of money. Find all you need to know and get started with Bitcoin on bitcoin.org.",
+            "sitelinks": [
+                {
+                    "title": "How does Bitcoin work?",
+                    "link": "https://bitcoin.org/en/how-it-works"
+                },
+                {
+                    "title": "Bitcoin",
+                    "link": "https://developer.bitcoin.org/"
+                },
+                {
+                    "title": "Buy Bitcoin",
+                    "link": "https://bitcoin.org/en/buy"
+                },
+                {
+                    "title": "Bitcoin Core",
+                    "link": "https://bitcoin.org/en/bitcoin-core/"
+                }
+            ],
+            "position": 4
+        },
+        {
+            "title": "What is Bitcoin? The Basics of Bitcoin Explained - CoinDesk",
+            "link": "https://www.coindesk.com/learn/what-is-bitcoin/",
+            "snippet": "Bitcoin combines its network, cryptocurrency, and blockchain to record transactions transparently, prevent double spending, and ensure consensus ...",
+            "date": "26 Jan 2022",
+            "position": 5
+        },
+        {
+            "title": "Bitcoin - Wikipedia",
+            "link": "https://en.wikipedia.org/wiki/Bitcoin",
+            "snippet": "Bitcoin (abbreviation: BTC; sign: ₿) is the first decentralized cryptocurrency. Nodes in the peer-to-peer bitcoin network verify transactions through ...",
+            "sitelinks": [
+                {
+                    "title": "Cryptocurrency",
+                    "link": "https://en.wikipedia.org/wiki/Cryptocurrency"
+                },
+                {
+                    "title": "Bitcoin protocol",
+                    "link": "https://en.wikipedia.org/wiki/Bitcoin_protocol"
+                },
+                {
+                    "title": "Bitcoin Core",
+                    "link": "https://en.wikipedia.org/wiki/Bitcoin_Core"
+                },
+                {
+                    "title": "Bitcoin Foundation",
+                    "link": "https://en.wikipedia.org/wiki/Bitcoin_Foundation"
+                }
+            ],
+            "position": 6
+        },
+        {
+            "title": "What is bitcoin and how does it work? - New Scientist",
+            "link": "https://www.newscientist.com/definition/bitcoin/",
+            "snippet": "Bitcoin is a digital currency which operates free of any central control or the oversight of banks or governments. Instead it relies on peer-to-peer software ...",
+            "position": 7
+        },
+        {
+            "title": "What Is Bitcoin? Definition, Basics & How to Use - NerdWallet",
+            "link": "https://www.nerdwallet.com/article/investing/what-is-bitcoin",
+            "snippet": "Bitcoin is a form of digital currency that aims to eliminate the need for central authorities such as banks or governments. Instead, Bitcoin ...",
+            "date": "11 Mar 2024",
+            "sitelinks": [
+                {
+                    "title": "Cryptocurrency Basics: Pros...",
+                    "link": "https://www.nerdwallet.com/article/investing/cryptocurrency"
+                },
+                {
+                    "title": "How Bitcoin Mining Works",
+                    "link": "https://www.nerdwallet.com/article/investing/bitcoin-mining"
+                },
+                {
+                    "title": "Blockchain",
+                    "link": "https://www.nerdwallet.com/article/investing/blockchain"
+                }
+            ],
+            "position": 8
+        },
+        {
+            "title": "What is Bitcoin and How Does It Work? - TechTarget",
+            "link": "https://www.techtarget.com/whatis/definition/Bitcoin",
+            "snippet": "Bitcoin is a digital currency -- also called cryptocurrency -- that can be traded for goods or services with vendors that accept Bitcoin as payment.",
+            "position": 9
+        },
+        {
+            "title": "What Is Bitcoin and How Does It Work? – Forbes Advisor INDIA",
+            "link": "https://www.forbes.com/advisor/in/investing/cryptocurrency/what-is-bitcoin-and-how-does-it-work/",
+            "snippet": "Bitcoin is a decentralized digital currency that is exchanged between two parties without involving intermediaries like banks or other ...",
+            "date": "4 May 2023",
+            "position": 10
+        }
+    ],
+    "images": [
+        {
+            "title": "What Is Bitcoin? How to Mine, Buy, and Use It",
+            "imageUrl": "https://www.investopedia.com/thmb/delajsg8gcLlzwTVHpiGzDjS6Jk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/bitcoin-4a77cbed13064596b35f46d2861ab187.jpg",
+            "link": "https://www.investopedia.com/terms/b/bitcoin.asp"
+        },
+        {
+            "title": "What is Bitcoin? [The Most Comprehensive Guide] Updated!",
+            "imageUrl": "https://blockgeeks.com/wp-content/uploads/2016/12/whatisbitcoin.jpg",
+            "link": "https://blockgeeks.com/guides/what-is-bitcoin/"
+        },
+        {
+            "title": "What is Bitcoin? Bitcoin Explained Simply - YouTube",
+            "imageUrl": "https://i.ytimg.com/vi/41JCpzvnn_0/maxresdefault.jpg",
+            "link": "https://m.youtube.com/watch?v=41JCpzvnn_0"
+        },
+        {
+            "title": "What is Bitcoin? What Are Cryptocurrencies? Bitcoin 101",
+            "imageUrl": "https://www.takeflyte.com/wp-content/uploads/2018/01/what-is-bitcoin.jpg",
+            "link": "https://www.takeflyte.com/bitcoin-cryptocurrencies-explained"
+        }
+    ],
+    "peopleAlsoAsk": [
+        {
+            "question": "What is a Bitcoin and how does it work?",
+            "snippet": "The Bottom Line. Bitcoin is a payment that uses virtual currency instead of fiat or physical currency. It uses a blockchain to secure transaction information out of the reach of centralized third parties who traditionally facilitate and regulate transactions.",
+            "title": "How Bitcoin Works - Investopedia",
+            "link": "https://www.investopedia.com/news/how-bitcoin-works/"
+        },
+        {
+            "question": "Is Bitcoin is Legal in India?",
+            "snippet": "First off, owning and trading Bitcoin (and other cryptocurrencies) is legal in India. The Reserve Bank of India (RBI) classifies cryptocurrencies as \"virtual digital assets\" (VDAs). This indicates recognition for tax purposes, but they are not considered legal tender.",
+            "title": "How to Buy Bitcoin in India? - The Economic Times",
+            "link": "https://m.economictimes.com/markets/cryptocurrency/how-to-buy-bitcoinbtc-in-india-march-2024/articleshow/108295205.cms"
+        },
+        {
+            "question": "Is Bitcoin actual money?",
+            "snippet": "As Bitcoin has also become accepted as a medium of exchange, stores value, and is recognized as a unit of account, it is considered money.",
+            "title": "Why Do Bitcoins Have Value? - Investopedia",
+            "link": "https://www.investopedia.com/ask/answers/100314/why-do-bitcoins-have-value.asp"
+        },
+        {
+            "question": "How many people own 1 Bitcoin?",
+            "snippet": "However, some estimates can be made based on blockchain data and surveys of Bitcoin holders. According to data from Bitinfocharts, as of March 2023, there are approximately 827,000 addresses that hold 1 bitcoin or more, representing around 4.5% of all addresses on the Bitcoin network.",
+            "title": "How many people own 1 bitcoin? - NBX",
+            "link": "https://nbx.com/crypto101/how-many-people-own-1-bitcoin"
+        }
+    ],
+    "relatedSearches": [
+        {
+            "query": "What is Bitcoin mining"
+        },
+        {
+            "query": "What is Bitcoin investment"
+        },
+        {
+            "query": "What is Bitcoin in Hindi"
+        },
+        {
+            "query": "Is Bitcoin safe"
+        },
+        {
+            "query": "How Bitcoin works for beginners"
+        },
+        {
+            "query": "What is Bitcoin in blockchain"
+        },
+        {
+            "query": "Is Bitcoin legal"
+        },
+        {
+            "query": "How to get Bitcoin"
+        }
+    ]
+}
