@@ -40,7 +40,7 @@ namespace SearchInsightGenerator
 
                         searchResultString = string.Join(';', searchResultsList);
                         await InsertSearchResults(query, searchResultString);
-                        await RunAIModel(query, searchResultString);
+                       // await RunAIModel(query, searchResultString);
                     }
                     else
                     {
